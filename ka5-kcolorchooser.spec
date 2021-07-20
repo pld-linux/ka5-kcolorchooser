@@ -35,6 +35,17 @@ Select colors from any location on the screen. Select colors from a
 range of standard palletes available. Color values shown in
 Hue-Saturation-Value (HSV), Red-Green-Blue (RGB) and HTML formats.
 
+%description -l pl.UTF-8
+KColorChooser jest prostą aplikacją do wybrania koloru z ekranu
+lub z palety.
+
+Właściwości:
+
+Zaznaczenie kolorów z dowolnej lokalizacji na ekranie. Wybieranie
+kolorów z zestawu standardowych palet. Wartości są pokazywane
+W Hue-Saturation-Value (HSV), Red-Green-Blue (RGB) i w formacie
+HTML.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
