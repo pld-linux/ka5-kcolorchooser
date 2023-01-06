@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	22.12.0
+%define		kdeappsver	22.12.1
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kcolorchooser
 Summary:	KColorChooser
 Name:		ka5-%{kaname}
-Version:	22.12.0
-Release:	2
+Version:	22.12.1
+Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	3e51795dd934b5d70558d73b1f2c3c68
+# Source0-md5:	2aa2f91cf74bb61f80f2f673b75bf6b3
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	cmake >= 2.8.12
